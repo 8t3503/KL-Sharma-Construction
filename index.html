@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="KL Sharma Construction - Over 25 years of experience in construction and civil works.">
+  <title>KL Sharma Construction</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: url('construction-bgj.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: white;
+    }
+    header {
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      text-align: center;
+      padding: 100px 20px;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+    .section {
+      background-color: rgba(255, 255, 255, 0.95);
+      color: black;
+      padding: 50px 20px;
+      border-radius: 10px;
+      margin: 30px auto;
+      max-width: 1000px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    }
+    .gray-section {
+      background-color: #e0e0e0;
+      font-size: 0.95em;
+      padding: 30px 20px;
+      border-radius: 10px;
+      margin: 30px auto;
+      max-width: 1000px;
+      color: #333;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    .project-gallery {
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+    }
+    .project-block {
+      background-color: rgba(255, 255, 255, 0.95);
+      padding: 20px;
+      border-radius: 10px;
+      color: black;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    }
+    .project-block h3 {
+      margin-top: 0;
+    }
+    .project-images {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 15px;
+      margin-top: 15px;
+    }
+    .project-images img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: transform 0.2s ease;
+    }
+    .project-images img:hover {
+      transform: scale(1.03);
+    }
+    footer {
+      text-align: center;
+      background-color: #333;
+      color: white;
+      padding: 20px;
+    }
+    .logo {
+      height: 150px;
+    }
+  </style>
+  <script>
+    function openImage(src) {
+      const win = window.open();
+      win.document.write('<img src="' + src + '" style="width:100%">');
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <img src="kls-logo.png" alt="KLS Logo" class="logo">
+    <nav>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#projects">Projects</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h1>KL Sharma Construction</h1>
+    <p>Building with Strength, Backed by 25 Years of Experience</p>
+  </div>
+
+  <section class="section" id="about">
+    <h2>About Us</h2>
+    <p>Experience of 25 years in the construction field, Civil Manager at Ahluwalia Contracts, started individual business 4 years ago.</p>
+  </section>
+
+  <section class="section" id="services">
+    <h2>Services</h2>
+    <ul>
+      <li>SBI (Gurgaon)</li>
+      <li>Greater Noida Commercial & Villa Development</li>
+      <li>Bajaj Sugar Mill (Gonda, Basti, Kundarki)</li>
+      <li>Mahagun Flats (Veshalli & Indirapuram)</li>
+    </ul>
+  </section>
+
+  <section class="gray-section" id="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li>Jal Jeevan Mission: Overhead tanks, pump houses, boundary walls, pipelines, CC roads, interlockings</li>
+      <li>Development flats in Greater Noida: Omicron I, Beta I, Beta II, Gama I P3, Sector 2</li>
+      <li>3BHK Flats in Veshalli Sector 4</li>
+      <li>Chipyana independent houses and villas</li>
+    </ul>
+  </section>
+
+  <section class="section" id="gallery">
+    <h2>Project Gallery</h2>
+    <div class="project-gallery">
+      <div class="project-block">
+        <h3>Jaal Jeevan Project</h3>
+        <div class="project-images">
+          <img src="jaal1.jpg" onclick="openImage(this.src)">
+          <img src="jaal2.jpg" onclick="openImage(this.src)">
+          <img src="jaal3.jpg" onclick="openImage(this.src)">
+          <img src="jaal4.jpg" onclick="openImage(this.src)">
+          <img src="jaal5.jpg" onclick="openImage(this.src)">
+        </div>
+      </div>
+      <div class="project-block">
+        <h3>Vaishali Project</h3>
+        <div class="project-images">
+          <img src="vaishali1.jpg" onclick="openImage(this.src)">
+          <img src="vaishali2.jpg" onclick="openImage(this.src)">
+          <img src="vaishali3.jpg" onclick="openImage(this.src)">
+          <img src="vaishali4.jpg" onclick="openImage(this.src)">
+          <img src="vaishali5.jpg" onclick="openImage(this.src)">
+        </div>
+      </div>
+      <div class="project-block">
+        <h3>Gurgaon – Phase 4</h3>
+        <div class="project-images">
+          <img src="gurgaon1.jpg" onclick="openImage(this.src)">
+          <img src="gurgaon2.jpg" onclick="openImage(this.src)">
+          <img src="gurgaon3.jpg" onclick="openImage(this.src)">
+          <img src="gurgaon4.jpg" onclick="openImage(this.src)">
+          <img src="gurgaon5.jpg" onclick="openImage(this.src)">
+          <img src="gurgaon6.jpg" onclick="openImage(this.src)">
+          <img src="gurgaon7.jpg" onclick="openImage(this.src)">
+          <img src="gurgaon8.jpg" onclick="openImage(this.src)">
+        </div>
+      </div>
+      <div class="project-block">
+        <h3>Civil Works – Nagpur</h3>
+        <div class="project-images">
+          <img src="nagpur1.jpg" onclick="openImage(this.src)">
+          <img src="nagpur2.jpg" onclick="openImage(this.src)">
+          <img src="nagpur3.jpg" onclick="openImage(this.src)">
+          <img src="nagpur4.jpg" onclick="openImage(this.src)">
+          <img src="nagpur5.jpg" onclick="openImage(this.src)">
+        </div>
+      </div>
+      <div class="project-block">
+        <h3>Road Project</h3>
+        <div class="project-images">
+          <img src="roadproject1.jpg" onclick="openImage(this.src)">
+        </div>
+      </div>
+      <div class="project-block">
+        <h3>Independent House Project</h3>
+        <div class="project-images">
+          <img src="independent1.jpg" onclick="openImage(this.src)">
+          <img src="independent2.jpg" onclick="openImage(this.src)">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:klsharma33@gmail.com">klsharma33@gmail.com</a><br>
+       Phone: <a href="tel:+919911123228">9911123228</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 KL Sharma Construction. All rights reserved.</p>
+  </footer>
+</body>
+</html>
